@@ -4,7 +4,7 @@ import { useFakeLoaderState } from "React-progress-hook";
 
 const App = () => {
   const { displayPercentage, isLoading, onProgress } = useFakeLoaderState({
-    exptedStepTime: 2000,
+    expectedStepTime: 2000,
     digits: 0
   });
 
